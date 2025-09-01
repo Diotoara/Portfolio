@@ -11,6 +11,7 @@ import Footer from './sections/Footer';
 const App = () => {
   return (
     <main className='max-w-7xl mx-auto'>
+      <h1>hi</h1>
       <Navbar />
       <Hero/>
       <About/>

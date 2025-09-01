@@ -5,7 +5,7 @@ import CanvasLoader from "../components/CanvasLoader.jsx";
 import { Suspense, useContext } from "react";
 import { Leva, useControls } from "leva";
 import { useMediaQuery } from "react-responsive";
-import Target from "../components/Target.jsx";git
+import Target from "../components/Target.jsx";
 import ReactLogo from "../components/ReactLogo.jsx";
 import Cube from "../components/Cube.jsx";
 import Rings from "../components/Rings.jsx";
