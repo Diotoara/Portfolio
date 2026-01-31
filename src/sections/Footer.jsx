@@ -7,15 +7,15 @@ const Footer = () => {
             <p>Privacy Policy</p>
         </div>
         <div className=" pt-20 flex gap-3 ">
-            <div className="social-icon">
+            <a href="https://www.github.com/diotoara" target="_blank" className="social-icon">
                 <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-            </div>
-            <div className="social-icon">
-                <img src="/assets/twitter.svg" alt="github" className="w-1/2 h-1/2" />
-            </div>
-            <div className="social-icon">
-                <img src="/assets/instagram.svg" alt="github" className="w-1/2 h-1/2" />
-            </div>
+            </a>
+            <a  href="https://www.linkedin.com/in/aryan-jha-530719325/" target="_blank" className="social-icon">
+                <img src="/assets/icons8-linkedin.svg" alt="linkedin" className="w-3/4 h-3/4" />
+            </a>
+            <a href="https://www.instagram.com/diotoara" target="_blank" className="social-icon">
+                <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
+            </a>
         </div>
 
         <p className="text-white-500">© 2025 Aryan Jha. All Rights Reserved</p>
