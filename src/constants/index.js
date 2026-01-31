@@ -24,35 +24,35 @@ export const navLinks = [
   export const clientReviews = [
     {
       id: 1,
-      name: 'Animesh S2',
-      position: 'Marketing Director at Arcane',
+      name: 'Animesh',
+      position: 'Senior Tech Lead at Arcane',
       img: 'assets/review1.png',
       review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+        'Aryan is the developer you want in your corner when the deadline is tight and the logic is complex. He approaches a codebase like a director approaches a film—with a clear vision, relentless precision, and zero tolerance for filler. Truly a 10x engineer.',
     },
     {
       id: 2,
-      name: 'N. Aarone',
+      name: 'N. Aarqin',
       position: 'Founder of GreenMinds',
       img: 'assets/review2.png',
       review:
-        'Aryan expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+        'Some devs just write code; Aryan writes rhythm. His backend architecture has a flow that reminds me of a perfect rap verse—structured, impactful, and incredibly efficient. He didn`t just build our app; he mastered it.',
     },
     {
       id: 3,
       name: 'Swayam kittu',
-      position: 'Project Manager at Arcane ',
+      position: 'Executive Producer at Arcane ',
       img: 'assets/review3.png',
       review:
-        'I can’t say enough good things about Aryan papa. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+        `Working with Aryan is like watching a Christopher Nolan film—at first, the architecture is so deep you're questioning reality, but then the 'prestige' hits and everything clicks perfectly. He doesn't just push code; he directs it. No plot holes in his logic, no shaky cam in his UI, just pure, high-budget performance on an indie timeline`,
     },
     {
       id: 4,
-      name: 'Ehshan pie',
+      name: 'Ehshan',
       position: 'CEO at Atoms',
       img: 'assets/review4.png',
       review:
-        'Aryan ji was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+        "I've seen Aryan handle a server crash with the same cool composure as John Wick in a hallway. He's the 'Final Boss' of Full-Stack; while others are still reading the script, he's already finished the sequel. If building a scalable app is a heist, Aryan is the specialist you hire to make sure the getaway car (your backend) never stalls.",
     },
   ];
   

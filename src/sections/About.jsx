@@ -19,7 +19,10 @@ const About = () => {
                     <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
                     <div>
                         <p className="grid-headtext">Hi, I am Aryan Jha</p>
-                        <p className="grid-subtext">with 2 years of experience, I have honed my skils in frontend & backend, with a focus on Machine Learning and DSA.</p>
+                        <p className="grid-subtext">
+                            a hands-on developer turning ideas into smooth, reliable applications. <br />
+I build with focus, precision, and a 10x mindset. also a Film & Rap Enthusiast.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -28,7 +31,7 @@ const About = () => {
                     <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] h-fit object-contain" />
                     <div>
                         <p className="grid-headtext">TECH STACK</p>
-                        <p className="grid-subtext">I specialize in C++ and LLM with a focus on React and Next.js ecosystems.</p>
+                        <p className="grid-subtext">Building scalable, data-driven applications with the Next.js ecosystem, Node.js, and a hybrid approach to SQL and NoSQL.</p>
                     </div>
                 </div>
             </div>
@@ -61,8 +64,8 @@ const About = () => {
                 <div className="grid-container">
                     <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
                     <div>
-                        <p className="grid-headtext">My Passion for Coding</p>
-                        <p className="grid-subtext">I Love solving problems and building things through code. Coding isn't just my profession - it is my passion.</p>
+                        <p className="grid-headtext">How I Work</p>
+                        <p className="grid-subtext">I view a codebase like a production: every line of script and every beat of the backend must sync perfectly. I'm driven by the rhythm of rapid problem-solving and the art of building robust systems from the ground up</p>
                     </div>
                 </div>
             </div>
