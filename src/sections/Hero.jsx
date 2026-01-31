@@ -11,6 +11,7 @@ import Cube from "../components/Cube.jsx";
 import Rings from "../components/Rings.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
+import NodeLogo from "../components/Target.jsx";
 
 const Hero = () => {
     const isMobile = useMediaQuery({maxWidth: 768})
@@ -37,7 +38,7 @@ const Hero = () => {
                     />
                 </HeroCamera >
                     <group>
-                        <Target position={[-16,-11,-3]} />
+                        <NodeLogo/>
                         <ReactLogo position={[14,4.8,8]}/>
                         <Cube position={[10,-4,12]} />
                         <Rings position={[-8.6,3.2,4,0]}/>

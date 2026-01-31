@@ -1,25 +1,20 @@
-import { useGLTF } from "@react-three/drei";
-import { useRef } from "react";
-import gsap from 'gsap';
-import { useGSAP } from "@gsap/react";
-const Target = (props) => {
-    const targetRef = useRef();
-    const { scene } = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf')
+import { Float, useGLTF } from "@react-three/drei";
 
-    useGSAP(() => {
-        gsap.to(targetRef.current.position, {
-            y: targetRef.current.position.y + 0.5,
-            duration: 0.5,
-            repeat: -1,
-            yoyo: true,
-        })
-    });
+const NodeLogo = (props) => {
+  const { scene } = useGLTF("/models/node-js-logo.glb");
 
-    return (
-    <mesh {...props} ref={targetRef} rotation={[0, Math.PI/5, 0]} scale={1.5}>
-        <primitive object={scene}/>
-    </mesh>
-  )
-}
+  scene.traverse((child) => {
+    if (child.isMesh) {
+      child.material.emissive = child.material.color;
+      child.material.emissiveIntensity = 1.5;
+    }
+  });
 
-export default Target
+  return (
+    <Float speed={2} floatIntensity={1.5} rotationIntensity={1.2}>
+      <primitive object={scene} scale={22} position={[-12, -6, 8]} {...props} />
+    </Float>
+  );
+};
+
+export default NodeLogo;
